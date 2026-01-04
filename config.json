@@ -1,0 +1,37 @@
+{
+    "selected_dataset": "Human_Innate_T_Cell",
+    "datasets": {
+        "Human_Innate_T_Cell": {
+            "path": "Data/HumanTcell.h5ad",
+            "parameters": {
+                "target_percentage": [0.93],
+                "seeds_per_rate": {"0.93":[0] },
+                "N_HVG": 4000,
+                "batch_size": 64,
+                "iter": 10
+            }
+        },
+        "Human_Lungs": {
+            "path": "Data/Human_lungs.h5ad",
+            "parameters": {
+                "target_percentage": [0.94],
+                "seeds_per_rate": {"0.94":[0] },
+                "N_HVG": 3000,
+                "batch_size": 64,
+                "iter": 30
+            }
+        },
+
+        "Baron_Human": {
+            "path": "Data/Baron_human.h5ad",
+            "parameters": {
+                "target_percentage": [0.89],
+                "seeds_per_rate": {"0.89":[0] },
+                "N_HVG": 3000,
+                "batch_size": 128,
+                "iter": 30
+            }
+        }
+    },
+    "model_dir": "scGPT_CP"
+}
